@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-flujo-completo-modulo12",
+  "version": "1.0.0",
+  "description": "Ejercicio Modulo 12 - Automatizacion Web, API y CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test:web": "playwright test web.spec.js",
+    "test:api": "jest api.test.js",
+    "test": "npm run test:api && npm run test:web"
+  },
+  "keywords": [
+    "playwright",
+    "jest",
+    "supertest",
+    "cicd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "jest": "^30.0.0",
+    "supertest": "^7.0.0"
+  }
+}
