@@ -4,7 +4,7 @@
   "description": "Ejercicio Modulo 12 - Automatizacion Web, API y CI/CD",
   "main": "index.js",
   "scripts": {
-    "test:web": "playwright test web.spec.js",
+    "test:web": "playwright test web.spec.js --reporter=html",
     "test:api": "jest api.test.js",
     "test": "npm run test:api && npm run test:web"
   },
