@@ -151,3 +151,10 @@ En una ejecución correcta del proyecto se obtiene:
 - Estado general del workflow: Success.
 - Reporte API generado como artefacto.
 - Reporte HTML de Playwright generado como artefacto.
+
+
+## Evidencia en video
+
+Video de presentación correspondiente al Módulo 12:
+
+[Ver o descargar video de evidencia](evidencia/MatildeMontenegroModulo12TAE.mp4)
